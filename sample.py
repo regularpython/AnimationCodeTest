@@ -23,7 +23,7 @@ def get_grade(average: float) -> str:
     """Return the grade for a given average."""
     if average >= 90:
         return "A+"
-    elif average >= 75:
+    elif average >= 76:
         return "A"
     elif average >= 60:
         return "B"
